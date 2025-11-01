@@ -145,16 +145,13 @@ a:link {
 
 nav a:link {
   margin-right: 25px;
-  display: inline-block;
+  margin-right: 30px;
   margin-top: 10px;
+  display: inline-block;
 }
 
-nav a:last-child {
+nav a:link:last-child {
   margin-right: 0;
-}
-
-nav a:first-child {
-  margin-left: 12px;
 }
 
 a:visited {
